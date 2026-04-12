@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Captação",
+    "description": "A água é retirada de rios ou represas e levada para a ETA.",
+    "questions": [
+      { "q": "De onde a água é geralmente retirada na fase de captação?", "options": ["Rios ou represas", "Nuvens", "Oceanos salgados", "Esgoto"], "answer": 0 },
+      { "q": "O que são as grades na captação?", "options": ["Filtros químicos", "Barreiras para impedir entrada de lixo grande", "Decantadores", "Bombas de cloro"], "answer": 1 },
+      { "q": "Para onde a água vai após ser captada?", "options": ["Direto para as casas", "Para a estação de tratamento (ETA)", "Para o mar", "Para a chuva"], "answer": 1 },
+      { "q": "A água captada de rios já é potável?", "options": ["Sim, sempre", "Não, precisa de tratamento", "Sim, se o rio for limpo", "Apenas se for fervida"], "answer": 1 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Coagulação",
+    "description": "Adição de substâncias (como sulfato de alumínio) para agrupar a sujeira.",
+    "questions": [
+      { "q": "Qual produto químico é comumente usado na coagulação?", "options": ["Açúcar", "Sulfato de Alumínio", "Óleo de cozinha", "Sal de cozinha"], "answer": 1 },
+      { "q": "Qual o objetivo da coagulação?", "options": ["Matar bactérias", "Agrupar as partículas de sujeira", "Mudar a cor da água", "Fazer a água ferver"], "answer": 1 },
+      { "q": "O que acontece com a sujeira nesta fase?", "options": ["Ela desaparece", "Ela se torna mais difícil de ver", "Ela se junta em pequenos flocos", "Ela vira gás"], "answer": 2 },
+      { "q": "A coagulação ocorre antes ou depois da decantação?", "options": ["Antes", "Depois", "Ao mesmo tempo", "Não existe ordem"], "answer": 0 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Floculação",
+    "description": "A água é agitada para que os flocos de sujeira fiquem maiores.",
+    "questions": [
+      { "q": "O que acontece na floculação?", "options": ["A água fica parada", "A água é agitada lentamente", "A água é fervida", "A água é congelada"], "answer": 1 },
+      { "q": "Para que serve a agitação na floculação?", "options": ["Para esfriar a água", "Para os flocos de sujeira colidirem e crescerem", "Para misturar oxigênio", "Para dissolver o lixo"], "answer": 1 },
+      { "q": "Como ficam os flocos nesta fase?", "options": ["Menores", "Invisíveis", "Maiores e mais pesados", "Gasosos"], "answer": 2 },
+      { "q": "Qual fase vem logo após a floculação?", "options": ["Captação", "Decantação", "Distribuição", "Filtração"], "answer": 1 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Decantação",
+    "description": "Os flocos de sujeira pesados afundam no fundo dos tanques.",
+    "questions": [
+      { "q": "O que faz a sujeira descer para o fundo do tanque?", "options": ["O vento", "A gravidade (peso dos flocos)", "Ímãs", "Filtros de papel"], "answer": 1 },
+      { "q": "Como a água sai do decantador?", "options": ["Pelo fundo, com a lama", "Pela superfície, mais limpa", "Ela não sai", "Por vaporização"], "answer": 1 },
+      { "q": "O que sobra no fundo do tanque de decantação?", "options": ["Ouro", "Lodo (sujeira)", "Peixes", "Água pura"], "answer": 1 },
+      { "q": "A decantação remove 100% das impurezas?", "options": ["Sim", "Não, ainda restam partículas menores", "Apenas se usar cloro", "Sim, se for lenta"], "answer": 1 }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Filtração",
+    "description": "A água passa por camadas de areia, carvão e cascalho.",
+    "questions": [
+      { "q": "Quais materiais compõem os filtros da ETA?", "options": ["Papel e pano", "Areia, carvão ativado e cascalho", "Plástico e metal", "Esponja e sabão"], "answer": 1 },
+      { "q": "O que a filtração remove?", "options": ["Apenas o cheiro", "Impurezas que não ficaram na decantação", "O cloro", "Os peixes"], "answer": 1 },
+      { "q": "Qual a função do carvão ativado no filtro?", "options": ["Esquentar a água", "Remover odores e sabores", "Colorir a água", "Matar vírus"], "answer": 1 },
+      { "q": "A água que sai do filtro já pode ser bebida?", "options": ["Sim, imediatamente", "Não, ainda falta a desinfecção", "Sim, se for cristalina", "Não, precisa ser fervida"], "answer": 1 }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Fluoretação e Cloração",
+    "description": "Adição de cloro para matar germes e flúor para os dentes.",
+    "questions": [
+      { "q": "Para que serve o cloro na água?", "options": ["Para dar sabor", "Para eliminar microorganismos (germes)", "Para deixar a água azul", "Para limpar o cano"], "answer": 1 },
+      { "q": "Por que adicionamos flúor na água?", "options": ["Para prevenir cáries nos dentes", "Para matar vírus", "Para clarear a água", "Para tirar o cheiro"], "answer": 0 },
+      { "q": "Esta fase é chamada de...", "options": ["Sujeira", "Desinfecção/Pós-tratamento", "Mistura", "Aquecimento"], "answer": 1 },
+      { "q": "O cloro é perigoso em excesso?", "options": ["Não, quanto mais melhor", "Sim, deve ser controlado", "É apenas um corante", "Não faz diferença"], "answer": 1 }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Reservação e Distribuição",
+    "description": "A água limpa é armazenada e enviada para as casas.",
+    "questions": [
+      { "q": "Onde a água fica antes de ir para as casas?", "options": ["Em baldes", "Em grandes reservatórios", "No rio novamente", "Na rua"], "answer": 1 },
+      { "q": "Como a água chega às residências?", "options": ["Por caminhões pipa apenas", "Através da rede de tubulações", "Pela chuva", "Por drones"], "answer": 1 },
+      { "q": "Quem controla a qualidade da água distribuída?", "options": ["Ninguém", "As empresas de saneamento", "Os moradores", "Os peixes"], "answer": 1 },
+      { "q": "A água da torneira deve ser sempre desperdiçada?", "options": ["Sim", "Não, devemos usar com consciência", "Apenas se for barata", "Sim, se tiver muita"], "answer": 1 }
+    ]
+  }
+]

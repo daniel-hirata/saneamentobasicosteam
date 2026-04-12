@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETA World - Estilo Mario</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="win" id="final-win-screen" hidden>
+    <h1>Você venceu!</h1>
+    <img src="./5078c773-28eb-4f7b-b8bc-308ca7b606bf-removebg-preview.png" alt="">
+    <button onclick="location.reload()" class="mario-btn">Jogar Novamente</button>
+</div>
+    
+    <div id="game-container">
+        <!-- HUD Superior -->
+        <div id="hud">
+            <div class="hud-item">
+                <span class="icon">⭐</span>
+                <span id="star-count">0</span>
+            </div>
+            <div class="hud-title">ETA-explore suas etapas</div>
+        </div>
+
+        <!-- Mapa de Fases -->
+        <div id="world-map" class="screen">
+            <div class="map-background">
+                <!-- As fases serão geradas via JS -->
+                <div id="levels-container"></div>
+                <img src="./e7183dd3-2706-4a25-a508-601521d92a1e-Photoroom.png" alt="" class="jaimeagota">
+            </div>
+        </div>
+
+        <!-- Tela do Quiz -->
+        <div id="quiz-screen" class="screen hidden">
+            <div class="quiz-container">
+                <h2 id="level-title">Fase 1</h2>
+                <p id="level-desc">Descrição da fase...</p>
+                <div id="question-container">
+                    <p id="question-text">Pergunta aqui?</p>
+                    <div id="options-container"></div>
+                </div>
+                <div id="quiz-footer">
+                    Questão <span id="current-q">1</span>/4
+                </div>
+            </div>
+        </div>
+
+        <!-- Tela de Resultado -->
+        <div id="result-screen" class="screen hidden">
+            <div class="result-container">
+                <h2 id="result-title">Resultado</h2>
+                <p id="result-text">Você acertou X de 4 questões.</p>
+                <div id="result-star" class="hidden">⭐ +1 Estrela!</div>
+                <button id="back-to-map" class="mario-btn">Voltar ao Mapa</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
